@@ -1,3 +1,71 @@
 body {
-  background: peachpuff;
+  background: rgb(237, 237, 237);
+}
+.a{
+  background-color: rgb(216, 216, 216);
+  border: 1px solid gray;
+  font-size: 4em;
+  min-width: 100%;
+  min-height: 28vh;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vh 1%;
+  justify-content: space-between;
+}
+.container-no-wrap{
+  display: flex;
+  gap: 1vh 3vw;
+  justify-content: space-between;
+}
+.b, .c, .d, .e, .f, .g {
+  background-color: rgb(216, 216, 216);
+  border: 1px solid gray;
+  font-size: 4em;
+  min-width: 3.5em;
+  max-height: 3.5em;
+  min-height: 3.5em;
+  text-align: center;
+}
+.h {
+  background-color: rgb(216, 216, 216);
+  border: 1px solid gray;
+  font-size: 4em;
+  min-width: 20%;
+  min-height: 7em;
+  text-align: center;
+}
+@media (max-width:969px) {
+  .b, .c, .d, .e, .f, .g {
+    background-color: rgb(216, 216, 216);
+    border: 1px solid gray;
+    font-size: 4em;
+    min-width: 2em;
+    max-height: 2em;
+    min-height: 2em;
+    text-align: center;
+  }
+  .h {
+    background-color: rgb(216, 216, 216);
+    border: 1px solid gray;
+    font-size: 4em;
+    min-width: 100%;
+    min-height: 40vh;
+    text-align: center;
+  }
+  .container-no-wrap{
+    display: flex;
+    gap: 1vh 10vw;
+    justify-content: space-between;
+  }
+  .a {
+    background-color: rgb(216, 216, 216);
+    border: 1px solid gray;
+    font-size: 4em;
+    min-width: 100%;
+    min-height: 15vh;
+    text-align: center;
+  }
 }
